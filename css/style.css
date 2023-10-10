@@ -1,0 +1,105 @@
+@charset "utf-8";
+
+@font-face {
+   font-family: Kanit;
+   src: url('Kanit-LightItalic.ttf') format('woff');
+}
+header {
+    background-color: #FF8360;
+    padding-bottom: 23px;
+}
+header h1 {
+    font-family: Kanit;
+    color: #233D4D;
+    font-size: 53px;
+}
+header nav {
+    float: right;
+}
+header li {
+    margin-top: 16px;
+    background-color: #FCCA46;
+    padding: 12px;
+    border: 3px solid #000;
+    display: inline;
+    text-transform: capitalize;
+    border-radius: 20%;
+}
+header a {
+    text-decoration: none;
+    color: #233D4D;
+    padding: 10px 10px;
+    border-radius: 5px;
+    font-size: 20px;
+}
+header a:hover {
+    color: #233D4D;
+}
+.hero {
+    background-color: #FCCA46;
+}
+.hero img {
+    width: 100%;
+}
+#box {
+    position: relative;
+    overflow: auto;
+    height: 350px;
+    background-color: #FF8360;
+    margin-top: 12px;
+ }
+.fprint {
+    font-size: 11px;
+}
+#verify tbody {
+    border: 2px solid #233D4D;
+    background-color: #619B8A;
+}
+#verify h3 {
+    padding: 12px;
+}
+main {
+    background-color: #A1C181;
+}
+main img {
+    width: 100%;
+}
+main h2 {
+    text-transform: capitalize;
+}
+.ball img {
+    width: 25%;
+    opacity: 0.1;
+    margin: 15px;
+}
+.ball p {
+    position: absolute;
+    top: 14px;
+    font-size: 15px;
+}
+.ball span {
+    text-transform: capitalize;
+    text-decoration: underline;
+}
+footer {
+    background-color: #619B8A;
+}
+footer nav {
+    float: right;
+}
+footer li {
+    margin-top: 6px;
+    padding: 5px;
+    display: inline;
+    text-transform: capitalize;
+}
+footer a {
+    text-decoration: none;
+    color: #233D4D;
+    padding: 10px 10px;
+    border-radius: 5px;
+    font-size: 20px;
+}
+footer a:hover {
+    color: #233D4D;
+}
